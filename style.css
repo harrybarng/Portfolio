@@ -392,6 +392,19 @@ a:hover, a:active {
     opacity: 1;
 }
 
+.titleMargin{
+    margin-top: 60px;
+}
+
+.titleFont{
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.copyright{
+    font-size: .5rem;
+}
+
 .portfolio-content h3 {
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
