@@ -428,11 +428,19 @@ a:hover, a:active {
     margin-bottom: 120px;
 }
 
-#divider{
+.divider{
     height: 1px;
     width: 100%;
     background: linear-gradient(to right, rgba(0,0,0,1) , rgba(0,0,0,1), rgba(0,0,0,1));
-    margin-bottom: 120px;
+    margin-bottom: 198px;
+}
+
+#alert{
+    width: 1140px;
+    position: absolute;
+    color: black;
+    top: 560px;
+    text-align: center;
 }
 
 .titleFont{
