@@ -371,9 +371,12 @@ p{
 
 .portfolio-content {
     position: relative;
-    margin-bottom: 30px;
     transition: transform .5s;
     
+}
+
+.pc-margin{
+    margin-bottom: 200px;
 }
 
 .portfolio-content:hover {
@@ -445,10 +448,19 @@ p{
     color: black;
     top: 560px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
+.thumbnail-header{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #2E2E2E;
+}
+
+
 .titleFont{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-left: 15px;
 }
 

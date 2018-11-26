@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <title>Hyun Barng</title>
 
     <!-- Required meta tags -->
@@ -19,7 +20,7 @@
 <body>
 <header class="site-header" style="box-shadow: 0px 0px 30px rgba(0,0,0,0.8);">
     <div class="site-branding">
-        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo.png" alt="Logo"></a></h1>
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/favicon.png" alt="Logo" style="height:25px;"></a></h1>
     </div><!-- .site-branding -->
 
     <div class="hamburger-menu">
@@ -35,8 +36,9 @@
 
 <nav class="site-navigation flex flex-column justify-content-between">
     <div class="site-branding d-none d-lg-block ">
-        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo2.png" alt="Logo"></a></h1>
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/favicon2.png" alt="Logo" style="height: 25px;"></a></h1>
     </div><!-- .site-branding -->
+    
 
     <ul class="main-menu flex flex-column justify-content-center">
         <li class="current-menu-item"><a href="index.html">Portfolio</a></li>
@@ -67,16 +69,33 @@
             
             <div class="col, titleMargin">
                 <div id="profile"></div>
-                <p class="titleFont">Hi there, my name is <b>Hyun Barng</b>.</p>
+                <p class="titleFont">Hi there, my name is <span style="color: #A74DBD; font-weight: 600;">Hyun Barng</span>.</p>
                 <p class="titleFont">A ux/ui designer based in Seattle with a background in Front-end and Object Oriented Programming.</p>
-                <p id="alert">A <b>prospective</b> Master in HCI + Design student for Autumn 2019 at Univeristy of Washington</p>
+                <p id="alert">A <span style="color: #A74DBD; font-weight: 600;">prospective</span> Master in HCI + Design student for Autumn 2019 at Univeristy of Washington</p>
             </div><!-- .col -->
         </div><!-- .row -->
 
         <div class="divider"></div>
 
+        <div class="col-12 col-md-12 col-lg-12 pc-margin">
+                <div class="portfolio-content">
+                    <figure>
+                        <img src="images/tm_pearos.png" alt="Skill It Up Logo">
+                    </figure>
+
+                    <div onclick="location.href = 'ridesafe.html';" style="cursor: pointer;" class="entry-content flex flex-column align-items-center justify-content-center">
+                        <h3 class="portfolio-title">Pear OS</h3>
+                        <div class="title-line"></div>
+                        <ul class="flex flex-wrap justify-content-center">
+                            <li class="portfolio-title">Product Designer</li>
+                        </ul>
+                    </div><!-- .entry-content -->
+                </div><!-- .portfolio-content -->
+            <div class="text-center thumbnail-header">Reinventing smartphones: Foldable</div>
+        </div><!-- .col -->
+
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
+            <div class="col-12 col-md-12 col-lg-12 pc-margin">
                 <div class="portfolio-content">
                     <figure>
                         <img src="images/tm_skillitup.png" alt="Skill It Up Logo">
@@ -92,12 +111,13 @@
                         </ul>
                     </div><!-- .entry-content -->
                 </div><!-- .portfolio-content -->
+                <div class="text-center thumbnail-header">Gamifying Course Learning Experience</div>
             </div><!-- .col -->
 
-            <div class="col-12 col-md-12 col-lg-12">
+            <div class="col-12 col-md-12 col-lg-12 pc-margin">
                 <div class="portfolio-content">
                     <figure>
-                        <img src="images/test.jpg" alt="Skill It Up Logo">
+                        <img src="images/tm_poledance.png" alt="Skill It Up Logo">
                     </figure>
 
                     <div onclick="location.href = 'spaceapps.html';" style="cursor: pointer;" class="entry-content flex flex-column align-items-center justify-content-center">
@@ -108,12 +128,13 @@
                         </ul>
                     </div><!-- .entry-content -->
                 </div><!-- .portfolio-content -->
+                <div class="text-center thumbnail-header">Polar Expedition Awareness Game</div>
             </div><!-- .col -->
 
-            <div class="col-12 col-md-12 col-lg-12">
+            <div class="col-12 col-md-12 col-lg-12 pc-margin">
                 <div class="portfolio-content">
                     <figure>
-                        <img src="images/test.jpg" alt="Skill It Up Logo">
+                        <img src="images/tm_comotion.png" alt="Skill It Up Logo">
                     </figure>
 
                     <div onclick="location.href = 'comotion.html';" style="cursor: pointer;" class="entry-content flex flex-column align-items-center justify-content-center">
@@ -124,23 +145,10 @@
                         </ul>
                     </div><!-- .entry-content -->
                 </div><!-- .portfolio-content -->
+                <div class="text-center thumbnail-header">Reducing traffic congestions</div>
             </div><!-- .col -->
 
-            <div class="col-12 col-md-12 col-lg-12">
-                <div class="portfolio-content">
-                    <figure>
-                        <img src="images/test.jpg" alt="Skill It Up Logo">
-                    </figure>
-
-                    <div onclick="location.href = 'ridesafe.html';" style="cursor: pointer;" class="entry-content flex flex-column align-items-center justify-content-center">
-                        <h3 class="portfolio-title">Ride Safe</h3>
-                        <div class="title-line"></div>
-                        <ul class="flex flex-wrap justify-content-center">
-                            <li class="portfolio-title">Lead Designer</li>
-                        </ul>
-                    </div><!-- .entry-content -->
-                </div><!-- .portfolio-content -->
-            </div><!-- .col -->
+            
 
             
         </div>
