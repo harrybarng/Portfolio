@@ -434,7 +434,7 @@ p{
 
 .titleMargin{
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .divider{
@@ -445,11 +445,10 @@ p{
 }
 
 #alert{
-    width: 1140px;
-    position: absolute;
+    /* width: 1140px; */
+    /* position: absolute; */
     color: black;
-    top: 560px;
-    text-align: center;
+    top: 100px;
     font-size: 1.1rem;
 }
 
